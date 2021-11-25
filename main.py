@@ -1,1 +1,10 @@
 print('Programma pieprasa figūras elementus un aprēķina to lakumu.')
+print('Nospiediet burtu:')
+print('T   - ja figura trijstūris')
+print('Tr  - ja figūra trapece')
+print('P   - ja figūra paralelograms')
+print('Ta  - ja figūra taisnstūris')
+print('K   - ja figūra kvadrāts')
+print('R   - ja figūra riņķis')
+print('____________________')
+
