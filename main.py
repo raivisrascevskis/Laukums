@@ -9,11 +9,11 @@ def trijsturis():
 
 def trapece():
   print('Figūra ir trapece')
-  trapecePamats1 = float(input("Ievadiet pamats1:"))
-  trapezoidBase2 = float(input("Ievadiet pamats2:"))
-  trapezoidHeight = float(input("Ievadiet trapeces augstumu:"))
-  areaOfTrapezoid = (trapezoidBase1 + trapezoidBase2) * trapezoidHeight / 2
-  print("Area of trapezoid is: " , areaOfTrapezoid)
+  trapecesPamats1 = float(input("Ievadiet pamats1:"))
+  trapecesPamats2 = float(input("Ievadiet pamats2:"))
+  trapecesAugstums = float(input("Ievadiet trapeces augstumu:"))
+  trapecesLaukums = (trapecesPamats1 + trapacesPamats2) * trapecesAugstums / 2
+  print("Trapeces laukums ir: " , trapecesLaukums)
 
 print('Programma pieprasa figūras elementus un aprēķina to lakumu.')
 print('Nospiediet burtu:')
