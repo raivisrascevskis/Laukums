@@ -1,0 +1,1 @@
+print('Programma pieprasa figūras elementus un aprēķina to lakumu.')
