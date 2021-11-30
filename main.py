@@ -12,8 +12,37 @@ def trapece():
   trapecesPamats1 = float(input("Ievadiet pamats1:"))
   trapecesPamats2 = float(input("Ievadiet pamats2:"))
   trapecesAugstums = float(input("Ievadiet trapeces augstumu:"))
-  trapecesLaukums = (trapecesPamats1 + trapacesPamats2) * trapecesAugstums / 2
+  trapecesLaukums = (trapecesPamats1 + trapecesPamats2) * trapecesAugstums / 2
   print("Trapeces laukums ir: " , trapecesLaukums)
+
+def taisnsturis():
+ print('Figūra ir taisnstūris')
+ l = float(input('Ieavadiet taisnstūra garumu: '))
+ b = float(input('Ievadiet taisnstūra platumu: '))
+ Area = l * b
+ print("Taisnstūra laukums ir: %.2f" %Area)
+
+def kvadrats():
+ print('Figūra ir kvadrāts')
+ side = int(input("Ievadiet malas garumus:"))
+ Area = side*side
+ print("Kvadrāta laukums ir="+str(Area))
+def rinkis():
+ print('Figūra ir riņķis')
+ PI = 3.14
+ r = float(input("Ievadiet riņķa rādiusu: "))
+ area = PI * r * r
+ print("Rinķa laukums ir %.2f" %area) 
+def paralelograms():
+ print("Figūra ir paralelograms")
+ pamats = float(input('Ievadiet pamata garumu: '))
+ augstums = float(input('Ievadiet augstuma garumu: '))
+ laukums = pamats * augstums
+ print("Laukums ir: ", laukums)
+
+
+
+
 
 print('Programma pieprasa figūras elementus un aprēķina to lakumu.')
 print('Nospiediet burtu:')
@@ -34,11 +63,15 @@ if Izvele == 'Tr':
   trapece()
 
 if Izvele == 'P':
-  print('Figūra ir paralelograms')
+  paralelograms()
+
 if Izvele == 'Ta':
-  print('Figūra ir taisnstūris')
+  taisnsturis()
+
+
 if Izvele == 'K':
-  print('Figūra ir kvadrāts')
+  kvadrats()
+ 
 if Izvele == 'R':
-  print('Figūra ir riņķis')
+  rinkis()
 
